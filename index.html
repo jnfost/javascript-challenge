@@ -28,10 +28,78 @@
             </div>
 
             <div class="container">
+                <form id= "form">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputdatetime">Date</label>
+                          <input type="date" class="form-control" id="inputdatetime">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <label for="inputState">State</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose</option>
+                            <option>ak</option>
+                            <option>al</option>
+                            <option>ar</option>
+                            <option>az</option>
+                            <option>ca</option>
+                            <option>co</option>
+                            <option>ct</option>
+                            <option>fl</option>
+                            <option>ga</option>
+                            <option>ia</option>
+                            <option>in</option>
+                            <option>ks</option>
+                            <option>ky</option>
+                            <option>la</option>
+                            <option>ma</option>
+                            <option>md</option>
+                            <option>mi</option>
+                            <option>mo</option>
+                            <option>ms</option>
+                            <option>nc</option>
+                            <option>nh</option>
+                            <option>nj</option>
+                            <option>nm</option>
+                            <option>ny</option>
+                            <option>oh</option>
+                            <option>on</option>
+                            <option>or</option>
+                            <option>pa</option>
+                            <option>sc</option>
+                            <option>tn</option>
+                            <option>tx</option>
+                            <option>va</option>
+                            <option>wa</option>
+                            <option>wi</option>
+                            <option>wv</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputCounty">Country</label>
+                          <select id="inputCountry" class="form-control">
+                            <option selected>Choose</option>
+                            <option>us</option>
+                            <option>ca</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputShape">Shape</label>
+                          <input type="text" class="form-control" id="inputShape">
+                        </div>
+                      </div>
+                    <button id="button" type="filter" class="btn btn-primary">Filter</button>
+                </form>
                 <div class= "row">
-                    <div class= "column-md-10">
+                    <div class= "column-md-12">
                         <div class= "table-responsive">
-                            <table  class="table table-striped">
+                            <table class="table table-striped">
                                 <thead>
                                     <tr>
                                       <th class="table-head">Date</th>

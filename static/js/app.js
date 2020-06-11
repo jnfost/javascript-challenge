@@ -14,3 +14,15 @@ tableData.forEach(function (ufoSighting) {
         cell.text(value);
     })
 });
+
+var button = d3.select("#button");
+
+var form = d3.select("#form")
+
+button.on("click", function() {
+
+    d3.event.preventDefault();
+    console.log("You clicked a button");
+
+
+})
