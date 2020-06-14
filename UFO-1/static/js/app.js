@@ -45,7 +45,6 @@ function runEnter() {
     console.log(filteredData);
     document.getElementById("body").innerHTML="";
   
-    // tableData.push(
     filteredData.forEach(function (ufoSighting) {
                 var row = tbody.append("tr");
         
